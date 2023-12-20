@@ -1,0 +1,226 @@
+/* side bar div styling start */
+.side-bar-div {
+
+margin-top: 40px;
+    position: absolute;
+    height: auto;
+    width: 30%;
+    right: 0;
+    background-color: rgb(142, 225, 107);
+}
+
+.add-cart {
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    right: 0%;
+    /* border: 2px solid black; */
+    top: 7vh;
+    background-color: rgb(119, 113, 138);
+    color: white;
+    cursor: pointer;
+    position:fixed;
+}
+.add-cart img{
+    color: aliceblue;
+}
+
+/* @keyframes example {
+    0%   { right:0px; top:0px;}
+    100%  { left:-20px; top:0px;}
+   
+  
+  } */
+.added-cart {
+    height: 100px;
+    width: auto;
+    border-bottom   : 3px solid rgb(176, 3, 3);
+    margin-top: 5px;
+    padding: 5px;
+        display: flex;
+
+    justify-content: space-between;
+}
+
+.added-cart-1 {
+    height: 30%px;
+    width: 30%;
+    border-radius: 60px;
+    /* border: 1px solid black; */
+}
+.added-cart-1-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 60px;
+}
+
+.added-cart-2 {
+    height: 100px;
+    width: 70%;
+    /* border: 1px solid black; */
+}
+
+.total-price-div {
+    width: auto;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 10 15px; */
+    align-items: center;
+    margin: 5px;
+    height: 50px;
+    border: 1px solid rgb(249, 245, 245);
+    background-color: aliceblue;
+}
+
+/* side bar div styling end */
+.nav-bar {
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(233, 226, 226);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+.nav-bar h1 {
+    color: rgb(29, 32, 201);
+}
+
+
+.prod-list-main {
+    height: auto;
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.prod-style {
+    height: auto;
+    width: 315px;
+    border: 1px solid rgb(4, 237, 74);
+    /* border-radius:20px ; */
+
+}
+
+.img-section {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.img-section img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.prod-title {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod-title h3 {
+    margin: 0;
+}
+
+.prod-price {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.prod-price h4 {
+    margin: 0;
+}
+
+.discount-tag {
+    width: 50px;
+    height: 20px;
+    border: 2px solid yellow;
+    background-color: yellow;
+    border-radius: 10px;
+
+}
+
+/* .discount-tag span{
+
+} */
+.add-cart-btn {
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+
+    /* outline: none;/ */
+}
+
+.add-cart-btn:hover {
+    font-size: 20px;
+}
+
+.cart-div {
+    height: 40px;
+    display: flex;
+    width: 100%;
+    border: none;
+    background-color: blue;
+    justify-content: space-between;
+
+
+}
+
+.pls-mins-div {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+    border: none;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.pls-mins-div button {
+    margin: 0%;
+    color: white;
+    background-color: blue;
+    border: none;
+    display: flex;
+    font-size: 30px;
+
+}
+
+.pls-mins-div button:hover {
+    font-size: 30px;
+}
+
+.add-counting {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 40%; */
+    justify-content: space-between;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+.add-counting p {
+    text-align: center;
+
+}
